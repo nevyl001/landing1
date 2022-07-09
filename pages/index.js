@@ -16,7 +16,7 @@ export default function Home() {
         <div className={styles.menu_logo}>
           <Image src="/img/img1.png" alt="Logo" width={352} height={177} />
         </div>
-        <div class={styles.btn}>
+        <div className={styles.btn}>
           <a href="#" rel="nofollow">
             <span>DOWNLOAD APP ICON</span>
           </a>
@@ -59,7 +59,7 @@ export default function Home() {
             <h2>Be compensated for your child’s health!</h2>
           </div>
           <div className={styles.section_2}>
-            <div class={styles.btn}>
+            <div className={styles.btn}>
               <a href="#" rel="nofollow">
                 <span>DOWNLOAD APP ICON</span>
               </a>
