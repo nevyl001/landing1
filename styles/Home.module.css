@@ -61,6 +61,12 @@
     margin: 0 auto;
     padding: 3rem 2rem;
   }
+  .btn {
+    padding: 15px;
+  }
+  .menu_logo {
+    width: 30%;
+  }
   .section_flex {
     display: block;
   }
