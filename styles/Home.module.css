@@ -33,7 +33,7 @@
   transition: all 0.4s ease 0s;
 }
 .menu_logo {
-  width: 15%;
+  width: 20%;
 }
 
 .main {
@@ -57,4 +57,14 @@
 }
 
 @media (max-width: 600px) {
+  .section_flex {
+    display: block;
+  }
+  .section_1 {
+    width: 100%;
+  }
+  .section_2 {
+    text-align: center;
+    width: 100%;
+  }
 }
