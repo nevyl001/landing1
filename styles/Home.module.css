@@ -64,6 +64,9 @@
   .btn {
     padding: 15px;
   }
+  .btn span {
+    font-size: 12px;
+  }
   .menu_logo {
     width: 30%;
   }
