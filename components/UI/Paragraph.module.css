@@ -1,0 +1,18 @@
+.text {
+  font-size: 16px;
+}
+.color_white {
+  color: white;
+}
+.color_black {
+  color: black;
+}
+.aling_center {
+  text-align: center !important;
+}
+
+@media (max-width: 1000px) {
+  .text {
+    font-size: 16px;
+  }
+}

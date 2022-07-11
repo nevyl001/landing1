@@ -1,0 +1,42 @@
+.subtitle {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+.color_gray {
+  color: #666;
+}
+.color_white {
+  color: white;
+}
+.color_green {
+  color: #00bf6f;
+}
+
+@media (max-width: 1080px) {
+  .title {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #666;
+    letter-spacing: -0.2px;
+    margin: 10px 0;
+  }
+  .white {
+    color: white;
+  }
+
+  .size_big {
+    font-size: 35px;
+    font-weight: 700;
+  }
+  .size_medium {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .size_small {
+    font-size: 18px;
+    font-weight: 700;
+  }
+}

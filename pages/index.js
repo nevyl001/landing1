@@ -1,7 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
+import Paragraph from "../components/UI/Paragraph";
+import Subtitle from "../components/UI/Subtitle";
+import Title from "../components/UI/Title";
 import styles from "../styles/Home.module.css";
-import React from "react";
 
 export default function Home() {
   return (
@@ -28,34 +30,38 @@ export default function Home() {
               <Image src="/img/img1.png" alt="Logo" width={352} height={177} />
             </div>
             <div className={styles.tittle}>
-              <h1>
+              <Title size="medium" color="black">
                 Get paid to treat your child´s anxiety and depression symptoms!
-              </h1>
+              </Title>
             </div>
-            <p>
+            <Paragraph color="black">
               Get your child’s symptoms virtually treated by Dr. MOOVES
               <br /> app and <b>get paid!</b>
-            </p>
-            <h3>
+            </Paragraph>
+            <Title size="small" color="black">
               Receive checks from your insurance company by treating your
               children’s A&D symptoms.
-            </h3>
-            <h3>How does it work?</h3>
-            <p>
+            </Title>
+            <Title size="small" color="black">
+              How does it work?
+            </Title>
+            <Paragraph color="black">
               Dr. Mooves app is a fun dance virtual therapy, which records their
               stability, sway, basal support, symmetry, synchrony and much more.
-            </p>
-            <p>
+            </Paragraph>
+            <Paragraph color="black">
               After performing every dance, children get a different
               prescription dance and a change in their improvement potential.
               The more progress your child shows, the better compensation you
               will receive from your insurance company.
-            </p>
-            <p>
+            </Paragraph>
+            <Paragraph color="black">
               All dances grow their mental strength and cognitive resiliency
               helping with anxiety and depression symptoms
-            </p>
-            <h2>Be compensated for your child’s health!</h2>
+            </Paragraph>
+            <Title size="small" color="black">
+              Be compensated for your child’s health!
+            </Title>
           </div>
           <div className={styles.section_2}>
             <div className={styles.btn}>
