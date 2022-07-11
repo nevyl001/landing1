@@ -26,42 +26,53 @@ export default function Home() {
       <main className={styles.main}>
         <header className={styles.section_flex}>
           <div className={styles.section_1}>
-            <div className={styles.logo}>
-              <Image src="/img/img1.png" alt="Logo" width={352} height={177} />
-            </div>
-            <div className={styles.tittle}>
-              <Title size="medium" color="black">
-                Get paid to treat your child´s anxiety and depression symptoms!
-              </Title>
+            <div className={styles.subsec_1_flex}>
+              <div className={styles.logo}>
+                <Image
+                  src="/img/img1.png"
+                  alt="Logo"
+                  width={352}
+                  height={177}
+                />
+              </div>
+              <div className={styles.tittle}>
+                <Title size="small" color="black">
+                  Get paid to treat your child´s anxiety and depression
+                  symptoms!
+                </Title>
+              </div>
             </div>
             <Paragraph color="black">
               Get your child’s symptoms virtually treated by Dr. MOOVES
               <br /> app and <b>get paid!</b>
             </Paragraph>
-            <Title size="small" color="black">
+            <Subtitle color="black">
               Receive checks from your insurance company by treating your
               children’s A&D symptoms.
-            </Title>
+            </Subtitle>
             <Title size="small" color="black">
               How does it work?
             </Title>
-            <Paragraph color="black">
-              Dr. Mooves app is a fun dance virtual therapy, which records their
-              stability, sway, basal support, symmetry, synchrony and much more.
-            </Paragraph>
-            <Paragraph color="black">
-              After performing every dance, children get a different
-              prescription dance and a change in their improvement potential.
-              The more progress your child shows, the better compensation you
-              will receive from your insurance company.
-            </Paragraph>
-            <Paragraph color="black">
-              All dances grow their mental strength and cognitive resiliency
-              helping with anxiety and depression symptoms
-            </Paragraph>
-            <Title size="small" color="black">
+            <ul>
+              <li>
+                Dr. Mooves app is a fun dance virtual therapy, which records
+                their stability, sway, basal support, symmetry, synchrony and
+                much more.
+              </li>
+              <li>
+                After performing every dance, children get a different
+                prescription dance and a change in their improvement potential.
+                The more progress your child shows, the better compensation you
+                will receive from your insurance company.
+              </li>
+              <li>
+                All dances grow their mental strength and cognitive resiliency
+                helping with anxiety and depression symptoms
+              </li>
+            </ul>
+            <Subtitle color="black">
               Be compensated for your child’s health!
-            </Title>
+            </Subtitle>
           </div>
           <div className={styles.section_2}>
             <div className={styles.btn}>
@@ -71,7 +82,7 @@ export default function Home() {
             </div>
             <div className={styles.video}>
               <div>
-                <video width="80%" controls>
+                <video width="100%" controls>
                   <source src="/img/mov_bbb.mp4" type="video/mp4" />
                   Your browser does not support HTML video.
                 </video>
