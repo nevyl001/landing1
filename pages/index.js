@@ -69,8 +69,11 @@ export default function Home() {
                   <li>
                     After performing every dance, children get a different
                     prescription dance and a change in their improvement
-                    potential. The more progress your child shows, the better
-                    compensation you will receive from your insurance company.
+                    potential.
+                  </li>
+                  <li>
+                    The more progress your child shows, the better compensation
+                    you will receive from your insurance company.
                   </li>
                   <li>
                     All dances grow their mental strength and cognitive
