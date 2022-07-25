@@ -86,6 +86,7 @@ export default function Home() {
                     prescription dance and a change in their improvement
                     potential.
                   </li>
+                  <br />
                   <li>
                     The more progress your child shows, the better compensation
                     you will receive from your insurance company.
