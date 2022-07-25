@@ -80,6 +80,7 @@ export default function Home() {
                     their stability, sway, basal support, symmetry, synchrony
                     and much more.
                   </li>
+                  <br />
                   <li>
                     After performing every dance, children get a different
                     prescription dance and a change in their improvement
@@ -89,6 +90,7 @@ export default function Home() {
                     The more progress your child shows, the better compensation
                     you will receive from your insurance company.
                   </li>
+                  <br />
                   <li>
                     All dances grow their mental strength and cognitive
                     resiliency helping with anxiety and depression symptoms
